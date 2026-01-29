@@ -8,7 +8,7 @@ function ServiceCard() {
       {services.map((service, index) => (
         <div 
           key={index} 
-          className="h-64 border border-gray-200 rounded-xl p-6 bg-slate-50 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow"
+          className="h-64 border-3 cursor-pointer border-purple-950 rounded-xl p-6 bg-slate-50 text-shadow-violet-600 flex flex-col justify-between shadow-2xl hover:border-purple-400"
         >
           <div className="text-sm uppercase tracking-widest text-blue-600 font-semibold">
             Feature {index + 1}

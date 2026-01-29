@@ -7,13 +7,13 @@ function Feedback() {
     <div className="flex flex-row justify-center items-start gap-12 p-8 border-t border-gray-100 w-full">
       
       {/* Title section - Fixed width to keep alignment neat */}
-      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap w-32">
+      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap w-32 text-teal-700">
         Feedback
       </div>
 
       {/* Content section */}
       <div className="max-w-3xl flex flex-col gap-6">
-        <div className="font-sans text-lg italic leading-relaxed text-gray-700 bg-gray-50 p-6 rounded-xl border-l-4 border-orange-300">
+        <div className="font-sans text-lg italic leading-relaxed text-gray-700 border-orange-600 bg-gray-50 p-6 rounded-xl border-l-4 ">
           "The level of responsibility and attention to detail provided was exceptional. 
           It is rare to find a partner who operates with such pure intentions and 
           genuine care for the final outcome. Their humble approach made the entire 
@@ -23,7 +23,7 @@ function Feedback() {
           </span>
         </div>
 
-        <div className="font-sans text-lg italic leading-relaxed text-gray-700 bg-gray-50 p-6 rounded-xl border-l-4 border-orange-300">
+        <div className="font-sans text-lg italic leading-relaxed text-gray-700 bg-gray-50 p-6 rounded-xl border-l-4 border-orange-600">
           "Professional, polite, and deeply committed to the task at hand. They took 
           full ownership of the project's challenges, delivering results that 
           surpassed our expectations while maintaining complete transparency."

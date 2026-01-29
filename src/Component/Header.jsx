@@ -11,10 +11,10 @@ function Header() {
             <h2 className='text-6xl p-2 font-bold shadow text-purple-600'>Your Technology Partner</h2>
         </div>
         <div className=' p-1  shadow  h-auto  items-center  max-w-fit  justify-evenly  text-blue-900'>
-            <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2 '>Our Work</button>
-            <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2 '>Client</button>
-            <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2 '>Why Us</button>
-            <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2'>Contact</button>
+            <button className='p-2 bg-amber-200 text-4xl border-2 cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Our Work</button>
+            <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Client</button>
+            <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Why Us</button>
+            <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Contact</button>
         </div>
     </div>
   )

@@ -7,13 +7,13 @@ function OurWork() {
     <div className="flex flex-row justify-center items-start gap-12 p-8 w-full">
       
       {/* Title section - w-32 matches the Feedback component for perfect alignment */}
-      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap w-32">
+      <div className="text-3xl font-bold uppercase tracking-wider whitespace-nowrap w-32 mt-5 mr-5 text-blue-700">
         Our Work
       </div>
 
       {/* Content section */}
       <div className="max-w-3xl">
-        <div className="font-sans text-lg leading-relaxed bg-orange-100 p-8 rounded-2xl border border-orange-200 text-gray-800">
+        <div className="font-sans  text-2xl leading-relaxed bg-orange-100 p-8 rounded-2xl border-2 border-orange-600 text-gray-800">
           <p className="mb-4">
             We believe that impactful work starts with a foundation of integrity
             and a deep sense of responsibility toward our clients and community.
