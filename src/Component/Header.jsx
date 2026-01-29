@@ -14,7 +14,7 @@ function Header() {
             <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2 '>Our Work</button>
             <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2 '>Client</button>
             <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2 '>Why Us</button>
-            <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15  ml-2'>Contact</button>
+            <button className='p-2 bg-amber-200 text-4xl border  rounded-2xl font-bold h-15 ml-2'>Contact</button>
         </div>
     </div>
   )

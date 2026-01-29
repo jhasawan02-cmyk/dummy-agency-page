@@ -1,19 +1,27 @@
-import Body from './Component/Body'
-import './App.css'
-import Header from './Component/Header'
-import Footer from './Component/Footer'
-import CopyRight from './Component/CopyRight'
-
+import React from 'react';
+import Header from './Component/Header';
+import Body from './Component/Body'; // Assuming Body contains your sections
+import Footer from './Component/Footer';
 
 function App() {
   return (
-    <div>
+    /* min-h-screen: ensures the page is at least the full height of the browser */
+    /* flex-col: stacks header, body, and footer vertically */
+    <div className='flex flex-col min-h-screen w-full'>
+      
+      {/* Header stays at the top */}
       <Header />
-      <Body />
+      
+      {/* Main/Body takes maximum available space */}
+      <main className='flex'>
+        <Body />
+      </main>
+
+      {/* Footer stays at the lowest portion of the page */}
       <Footer />
-      <CopyRight />
+      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
