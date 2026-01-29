@@ -5,7 +5,6 @@ import Footer from './Component/Footer'
 import CopyRight from './Component/CopyRight'
 
 
-
 function App() {
   return (
     <div>
