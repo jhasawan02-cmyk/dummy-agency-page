@@ -2,13 +2,16 @@ import React from "react";
 
 function OurWork() {
   return (
-    <div className="flex flex-row items-start gap-8 p-8">
+    /* justify-center: Centers the section content globally */
+    /* w-full: Takes full width to allow centering to work */
+    <div className="flex flex-row justify-center items-start gap-12 p-8 w-full">
       
-      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap">
+      {/* Title section - w-32 matches the Feedback component for perfect alignment */}
+      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap w-32">
         Our Work
       </div>
 
-      
+      {/* Content section */}
       <div className="max-w-3xl">
         <div className="font-sans text-lg leading-relaxed bg-orange-100 p-8 rounded-2xl border border-orange-200 text-gray-800">
           <p className="mb-4">

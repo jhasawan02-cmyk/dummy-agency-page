@@ -2,13 +2,16 @@ import React from 'react';
 
 function Feedback() {
   return (
-    <div className="flex flex-row items-start gap-8 p-8 border-t border-gray-100">
-     
-      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap">
+    /* justify-center: Centers the whole block on the page */
+    /* w-full: Ensures it spans the width to allow centering */
+    <div className="flex flex-row justify-center items-start gap-12 p-8 border-t border-gray-100 w-full">
+      
+      {/* Title section - Fixed width to keep alignment neat */}
+      <div className="text-2xl font-bold uppercase tracking-wider whitespace-nowrap w-32">
         Feedback
       </div>
 
-      
+      {/* Content section */}
       <div className="max-w-3xl flex flex-col gap-6">
         <div className="font-sans text-lg italic leading-relaxed text-gray-700 bg-gray-50 p-6 rounded-xl border-l-4 border-orange-300">
           "The level of responsibility and attention to detail provided was exceptional. 
