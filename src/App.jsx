@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Component/Header';
 import Body from './Component/Body'; // Assuming Body contains your sections
 import Footer from './Component/Footer';
+import { Outlet } from 'react-router';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       
       {/* Main/Body takes maximum available space */}
       <main className='flex'>
-        <Body />
+        <Outlet />
       </main>
 
       {/* Footer stays at the lowest portion of the page */}

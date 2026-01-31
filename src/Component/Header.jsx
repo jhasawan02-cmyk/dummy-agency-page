@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function Header() {
   return (
@@ -10,11 +11,22 @@ function Header() {
         <div className='  justify-evenly '>
             <h2 className='text-6xl p-2 font-bold shadow text-purple-600'>Your Technology Partner</h2>
         </div>
-        <div className=' p-1  shadow  h-auto  items-center  max-w-fit  justify-evenly  text-blue-900 from-neutral-300'>
-            <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Our Work</button>
+        <div className=' p-1  shadow flex justify-evenly h-auto  items-center  min-w-fit   text-blue-900 from-neutral-300'>
+            <Link to="/home">
+           <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Home</button> 
+           </Link> 
+           <Link to="/ourwork">
+           <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Work</button> 
+           </Link> 
+           <Link to="/client">
             <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Client</button>
+            </Link>
+            <Link to="/us">
             <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Why Us</button>
+            </Link>
+            <Link to="/contact">
             <button className='p-2 bg-amber-200 text-4xl border-2   cursor-pointer  rounded-2xl font-bold h-15 ml-2 hover:border '>Contact</button>
+            </Link>
         </div>
     </div>
   )
