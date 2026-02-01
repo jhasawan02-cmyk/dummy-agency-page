@@ -7,21 +7,21 @@ function Client() {
       name: "John Doe",
       role: "CEO, TechCorp",
       message: "The team delivered exceptional results ahead of schedule. Their attention to detail is unmatched.",
-      accent: "bg-blue-500"
+      accent: "bg-red-500"
     },
     {
       initials: "SS",
       name: "Sarah Smith",
       role: "Product Manager",
       message: "An absolute pleasure to work with. They transformed our vision into a high-quality reality.",
-      accent: "bg-purple-500"
+      accent: "bg-blue-700"
     },
     {
       initials: "AM",
       name: "Arjun Mehta",
       role: "Founder, StartupX",
       message: "Professional, responsive, and highly skilled. I would recommend them to anyone looking for excellence.",
-      accent: "bg-emerald-500"
+      accent: "bg-yellow-500"
     }
   ];
 
@@ -43,7 +43,7 @@ function Client() {
           >
             <div className={`absolute top-0 left-0 h-1 w-0 group-hover:w-full transition-all duration-500 rounded-t-2xl ${client.accent}`}></div>
             
-            <div className="text-4xl text-slate-200 font-serif absolute top-6 right-8 leading-none group-hover:text-blue-100 transition-colors">
+            <div className="text-4xl text-slate-200 font-serif absolute top-6 right-8 leading-none group-hover:text-red-100 transition-colors">
               &ldquo;
             </div>
 
@@ -56,7 +56,7 @@ function Client() {
                 {client.initials}
               </div>
               <div>
-                <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                <h4 className="font-bold text-slate-900 group-hover:text-orange-600 transition-colors">
                   {client.name}
                 </h4>
                 <p className="text-xs font-medium text-slate-400 uppercase tracking-tighter">
